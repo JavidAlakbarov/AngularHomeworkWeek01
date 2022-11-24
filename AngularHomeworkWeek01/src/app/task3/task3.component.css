@@ -1,0 +1,15 @@
+.button{
+    color: white;
+    background-color: red;
+    border: 2px solid red;
+    border-radius: 4px;
+    height: 30px;
+    width: 150px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.button:hover{
+    color: red;
+    background-color: white;
+    border: 2px solid red;
+}

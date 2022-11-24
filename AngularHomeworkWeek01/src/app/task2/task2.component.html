@@ -1,0 +1,16 @@
+    <p>Click the button below to create or delete a server :</p>
+    <button (click)="clickMessage()" class="btn">Add Server</button>
+   <div> <p class="createServer">No server was created</p> </div> <hr>
+
+
+<script>
+    function clickMessage(){
+        var click =document.querySelector('.createServer');
+        if(click.innerHTML === "No server was created"){
+            click.innerHTML = "Server was created";
+        }
+        else{
+            click.innerHTML === "No server was created"
+        }
+    }
+</script>

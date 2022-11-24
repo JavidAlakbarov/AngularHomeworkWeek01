@@ -1,0 +1,12 @@
+<button (click)="enableButton" class="button">Click</button>
+
+<script>
+    function enableButton(){
+        var enable = document.querySelector('.button').disabled=true;
+        setTimeout(function() {
+        document.querySelector(".button").disabled = false;
+        }, 5000);
+        document.querySelector(".button").addEventListener("click", enableButton);
+    }
+    
+</script>
