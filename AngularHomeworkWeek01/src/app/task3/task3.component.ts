@@ -8,10 +8,10 @@ import { Component } from '@angular/core';
 export class Task3Component {
   enableButton(){
     var enable = document.querySelector('.button');
-    // if(enable?.innerHTML === "Click"){
-    //   setTimeout(() => {
-    //     enable?.remove()
-    //   }, 5000);
-    // }
+    if(enable?.innerHTML === "Click"){
+      setTimeout(() => {
+        enable?.remove()
+      }, 5000);
+    }
   }
 }
